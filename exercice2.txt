@@ -1,0 +1,58 @@
+ 1) Quelle est la différence entre Git et GitHub ?
+
+  Git est un gestionnaire de versions tandis que GitHub est un
+service en ligne qui héberge les dépôts Git
+
+2)   Qu’est-ce qu’un dépôt local ?
+
+   L’endroit où l’on stocke, sur sa machine, une copie d’un projet
+
+3) Un dépôt distant GitHub permet de :
+
+
+   travailler en équipe
+   contribuer à des projets open source
+
+4)  Pour démarrer un projet GitHub, vous devez :
+
+  créer votre compte GitHub
+  créer un repository
+
+5) Pour installer Git, vous devez :
+
+télécharger et configurer Git
+
+6)Je souhaite créer trois nouvelles branches : "Branch1", "Branch2"
+et "Branch3", et basculer sur ma branche "Branch2". Que dois-je
+faire ?
+
+git branch Branch1
+git branch Branch2
+git branch Branch3
+git checkout Branch2
+
+7) Quelle commande permet de consulter nos branches, et quel est
+le résultat de cette commande après celle de la question 6) ?
+
+git branch
+main
+Branch1
+*Branch2
+Branch3
+
+8) Dans quel ordre dois-je réaliser les 3 commandes ?
+
+git add fichier.html
+git commit -m “message”
+git push origin main
+
+9) Je veux fusionner la branche “modifications” à la branche
+principale du projet. Quelles commandes dois-je réaliser ?
+
+git checkout main
+git merge modifications
+
+10)  La commande git reset peut être appliquée de 3 façons
+différentes. Lesquelles ?
+
+Git reset --soft / Git reset --mixed / Git reset --hard
